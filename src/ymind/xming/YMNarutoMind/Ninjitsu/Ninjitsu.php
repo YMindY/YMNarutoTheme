@@ -7,7 +7,7 @@ use pocketmine\event\Listener;
 abstract class Ninjitsu implements Listener{
     
     protected $main;
-    protected static $name = null;
+    protected $name = null;
     protected $mudra = null;
     
     public function __construct(Main $main){
