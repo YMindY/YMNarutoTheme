@@ -24,12 +24,12 @@ abstract class Ninjitsu implements Listener{
     }
     
     //忍术初始执行
-    public function startLauncher(Ninjitsu $n,Player $p){
+    public function startLauncher(Ninjitsu $n,Player $p,array $data){
         $launcher = new Launcher();
-        $launcher->setParams($n,$p);
+        $launcher->setParams($n,$p,$data);
         $launcher->start();
     }
     
     //忍术发动
-     abstract public function launch(array $param);
+     abstract public function launch(Player $p,array $param);
 }

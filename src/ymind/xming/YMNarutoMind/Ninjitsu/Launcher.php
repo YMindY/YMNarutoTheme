@@ -17,8 +17,8 @@ class Launcher extends Thread{
         self::$main = $main;
     }
     
-    public function setParams(Ninjitsu $n,Player $p){
-        $this->param = array($n,$p);
+    public function setParams(Ninjitsu $n,Player $p,array $d){
+        $this->param = array($n,$p,$d);
     }
     
     public function run(){
@@ -35,6 +35,6 @@ class Launcher extends Thread{
         }
         $p->sendMessage("结印完成，忍术发动!");
         self::$main->broadcastMessage(">>>>>>>>>>\n一名玩家发动了忍术!\n  [结印: ".$mudra."]\n[忍术: ".$name."]");
-        $n->launch($this->param);
+        $n->launch($p,$this->param[2]);
     }
 }
