@@ -27,10 +27,7 @@ abstract class Ninjitsu implements Listener{
     public function startLauncher(Ninjitsu $n,Player $p){
         $launcher = new Launcher();
         $launcher->setParams($n,$p);
-<<<<<<< HEAD
         $launcher->start();
-=======
->>>>>>> branch 'master' of https://github.com/YxMingY/YMNarutoMind.git
     }
     
     //忍术发动
