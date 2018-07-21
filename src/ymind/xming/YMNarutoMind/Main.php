@@ -4,6 +4,7 @@ namespace ymind\xming\YMNarutoMind;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use ymind\xming\YMNarutoMind\Ninjitsu\{
+    Launcher,
     KutiyoseNoJyutsu,
     RaitonChitori
 };
@@ -21,6 +22,7 @@ class Main extends PluginBase
     {
         $this->getLogger()->notice('|YMNarutoMind| 已启动！ 作者xMing');
         //@mkdir($this->getDataFolder(), 0700, true);
+        Launcher::setMain($this);
         foreach($this->NinjitsuName as $nn => $cn){
             $this->Ninjitsu[$nn] = new $cn($this);
             $this->getServer()->getPluginManager()->registerEvents($this->Ninjitsu[$nn], $this);
