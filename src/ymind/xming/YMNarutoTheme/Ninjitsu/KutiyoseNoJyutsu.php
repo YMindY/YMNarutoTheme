@@ -1,6 +1,6 @@
 <?php
 //通灵之术
-namespace ymind\xming\YMNarutoMind\Ninjitsu;
+namespace ymind\xming\YMNarutoTheme\Ninjitsu;
 
 use pocketmine\Player;
 
@@ -12,6 +12,4 @@ class KutiyoseNoJyutsu extends Ninjitsu{
     public function launch(Player $p,array $param){
         $this->main->broadcastMessage("忍术".$name."已发动!");
     }
-    
-    
 }

@@ -1,8 +1,8 @@
 <?php
-namespace ymind\xming\YMNarutoMind\Ninjitsu;
+namespace ymind\xming\YMNarutoTheme\Ninjitsu;
 
 use pocketmine\{Thread,Player};
-use ymind\xming\YMNarutoMind\Main;
+use ymind\xming\YMNarutoTheme\Main;
 
 class Launcher extends Thread{
     

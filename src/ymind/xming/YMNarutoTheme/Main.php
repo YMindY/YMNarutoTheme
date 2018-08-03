@@ -1,9 +1,9 @@
 <?php
-namespace ymind\xming\YMNarutoMind;
+namespace ymind\xming\YMNarutoTheme;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
-use ymind\xming\YMNarutoMind\Ninjitsu\{
+use ymind\xming\YMNarutoTheme\Ninjitsu\{
     Launcher,
     KutiyoseNoJyutsu,
     RaitonChitori
@@ -20,7 +20,7 @@ class Main extends PluginBase
 
     public function onEnable()
     {
-        $this->getLogger()->notice('|YMNarutoMind| 已启动！ 作者xMing');
+        $this->getLogger()->notice('|YMNarutoTheme| 已启动！ 作者xMing');
         //@mkdir($this->getDataFolder(), 0700, true);
         Launcher::setMain($this);
         foreach($this->NinjitsuName as $nn => $cn){
@@ -32,6 +32,6 @@ class Main extends PluginBase
 
     public function onDisable()
     {
-        $this->getLogger()->warning('|YMNarutoMind| 已关闭！ 作者xMing');
+        $this->getLogger()->warning('|YMNarutoTheme| 已关闭！ 作者xMing');
     }
 }

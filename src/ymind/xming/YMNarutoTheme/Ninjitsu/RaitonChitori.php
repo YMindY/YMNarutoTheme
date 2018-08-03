@@ -1,6 +1,6 @@
 <?php
 //雷遁-千鸟
-namespace ymind\xming\YMNarutoMind\Ninjitsu;
+namespace ymind\xming\YMNarutoTheme\Ninjitsu;
 
 use pocketmine\Player;
 

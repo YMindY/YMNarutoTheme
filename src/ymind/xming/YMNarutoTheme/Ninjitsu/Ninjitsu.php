@@ -1,7 +1,7 @@
 <?php
-namespace ymind\xming\YMNarutoMind\Ninjitsu;
+namespace ymind\xming\YMNarutoTheme\Ninjitsu;
 
-use ymind\xming\YMNarutoMind\Main;
+use ymind\xming\YMNarutoTheme\Main;
 use pocketmine\event\Listener;
 use pocketmine\Player;
 

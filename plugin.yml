@@ -1,6 +1,6 @@
-name: YMNarutoMind
+name: YMNarutoTheme
 version: 1.0.0_alpha_1.0
-main: ymind\xming\YMNarutoMind\Main
+main: ymind\xming\YMNarutoTheme\Main
 load: POSTWORLD
 author: xMing
 api:
