@@ -1,3 +1,3 @@
-# YMNarutoMind
+# YMNarutoTheme
 ## Naruto's Ninja, Ninjitsu and Story.
 ### A PocketMine Server Plugin
